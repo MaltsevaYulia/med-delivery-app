@@ -1,0 +1,22 @@
+.box {
+  border-radius: 8px;
+  border: 1px solid #e8ecf4;
+  background: var(--bg-white, #fff);
+  padding: 10px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 8px;
+  border: 1px solid #e8ecf4;
+  background: var(--bg-white, #fff);
+  padding: 10px;
+}
+
+.item {
+  border-radius: 8px;
+  border: 1px solid #e8ecf4;
+  background: var(--bg-white, #fff);
+}

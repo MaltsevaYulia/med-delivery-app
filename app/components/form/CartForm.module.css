@@ -1,0 +1,39 @@
+.formBox {
+  border-radius: 8px;
+  border: 1px solid #e8ecf4;
+  background: var(--bg-white, #fff);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 501.45pxpx;
+  padding: 10px;
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+
+  background-color: var(--yellow);
+
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-radius: 5px;
+
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  transition: all 250ms ease-in-out;
+  transform: scale(1);
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}

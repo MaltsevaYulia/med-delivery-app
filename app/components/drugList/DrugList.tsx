@@ -1,5 +1,5 @@
 import React from "react";
-interface IDrug {
+export interface IDrug {
     id: string;
   name: string;
   img?: string;
